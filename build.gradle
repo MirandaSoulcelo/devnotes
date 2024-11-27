@@ -32,11 +32,13 @@ dependencies {
 	implementation('org.webjars:bootstrap:5.3.3')
 	implementation 'nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:3.3.0'
 	implementation 'org.springframework.boot:spring-boot-starter-security'
+	
 	compileOnly 'org.projectlombok:lombok'
 	runtimeOnly 'com.h2database:h2'
 	runtimeOnly 'org.postgresql:postgresql'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 
